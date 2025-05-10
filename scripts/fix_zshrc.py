@@ -1,0 +1,1 @@
+# Fix .zshrc file logic

@@ -1,0 +1,28 @@
+[project]
+name = "fredcore"
+version = "0.1.0"
+description = "FredFix AI-powered DevOps toolkit"
+authors = [{name = "Fred Taylor"}]
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "rich",
+    "psutil",
+    "openai",
+    "python-dotenv",
+    "google-generativeai",
+    "anthropic"
+]
+
+[project.scripts]
+fredfix = "cli.main:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["ai", "cli", "scripts", "monitoring", "dashboard_web", "utils"]

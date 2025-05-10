@@ -1,0 +1,41 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment & virtualenv
+.env
+.env.*
+env/
+venv/
+ENV/
+*.egg-info/
+
+# Mac system files
+.DS_Store
+
+# VSCode settings (if using)
+.vscode/
+
+# Compiled bytecode
+*.pyo
+*.pyd
+
+# Logs and system files
+*.log
+
+# Editor swap/backup files
+*~
+*.swp
+*.bak
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Personal override scripts or test outputs
+*.generated.py
+.env
+.env.example
+env/
+__pycache__/
